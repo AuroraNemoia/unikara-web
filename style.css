@@ -52,6 +52,7 @@ body{
     max-width: 70em;
     margin: 0 auto;
     margin-top: 1em;
+    color: #fff;
 }
 .main p, li{
     line-height: 1.3em;
