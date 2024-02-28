@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+body{
+    background-color: #192C3C;
+    overflow: visible;
+    min-height: 100vh;
+}
+.header {
+    background-color: #62BACF;
+    background-image: url(rainbow.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #192C3C;
+    padding: 2em 0;
+    display: flex;
+    max-width: 70em;
+    max-height: 40em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height:40vh;
+    margin: 0 auto;
+}
+.buttons{
+    max-width: 70em;
+    margin: 0 auto;
+    margin-top:1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.buttons a{
+    display: block;
+    width: 3em;
+    height: 3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.buttons #twitter{
+    background-image: url(twitter.png);
+}
+.buttons #discord{
+    background-image: url(discord.png);
+}
+.main{
+    max-width: 70em;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+.main p, li{
+    line-height: 1.3em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.main h1, h2, h3{
+    line-height: 1.6em;
+    font-size: 2em;
+    font-weight: 500;
+}
+.header-container{
+    text-align: left;
+    vertical-align: middle;
+    /* background:red; */
+    margin-left:4em;
+    height: min-content;
+    width: max-content;
+    overflow: visible;
+    display:flex;
+    flex-direction: column;
+}
+.header-container div{
+    display: flex;
+}
+.header-container p{
+    font-size: 6em;
+    line-height: 1em;
+    display: inline-flex;
+}
+.star{
+    width:4em;
+    height:4em;
+    transform:translate(-.5em, -.5em);
+    background-image: url(star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.header-container h2{
+    font-size: 2.4em;
+    line-height: 1em;
+    font-weight: 500;
+}
+@media (max-width: 600px) {
+    .header {
+        max-width: 100%;
+        padding: 1em 0;
+    }
+}
