@@ -10,6 +10,9 @@ body{
     overflow: visible;
     min-height: 100vh;
 }
+strong{
+    font-weight: 500;
+}
 .header {
     background-color: #62BACF;
     background-image: url(rainbow.png);
