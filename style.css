@@ -15,7 +15,7 @@ strong{
 }
 .header {
     background-color: #62BACF;
-    background-image: url(rainbow.png);
+    background-image: url(rainbow.webp);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -46,10 +46,10 @@ strong{
     background-repeat: no-repeat;
 }
 .buttons #twitter{
-    background-image: url(twitter.png);
+    background-image: url(twitter.webp);
 }
 .buttons #discord{
-    background-image: url(discord.png);
+    background-image: url(discord.webp);
 }
 .main{
     max-width: 70em;
@@ -107,7 +107,7 @@ blockquote audio{
     width:4em;
     height:4em;
     transform:translate(-.5em, -.5em);
-    background-image: url(star.png);
+    background-image: url(star.webp);
     background-size: contain;
     background-repeat: no-repeat;
 }
