@@ -10,7 +10,7 @@ body{
     min-height: 100vh;
 }
 strong{
-    font-weight: 500;
+    font-variation-settings: 'wght' 500;
 }
 .header {
     background-color: #62BACF;
@@ -66,7 +66,7 @@ blockquote{
 blockquote p{
     margin:0!important;
     font-family: monospace!important;
-    font-weight: 500!important;
+    font-variation-settings: 'wght' 500!important;
 }
 blockquote audio{
     border-radius: .4em;
@@ -76,12 +76,12 @@ blockquote audio{
     line-height: 1.3em;
     margin-bottom: 1em;
     font-size: 1.5em;
-    font-weight: 300;
+    font-variation-settings: 'wght' 300;
 }
 .main h1, h2, h3{
     line-height: 1.6em;
     font-size: 2em;
-    font-weight: 500;
+    font-variation-settings: 'wght' 500;
 }
 .header-container{
     text-align: left;
@@ -113,7 +113,7 @@ blockquote audio{
 .header-container h2{
     font-size: 2.4em;
     line-height: 1em;
-    font-weight: 500;
+    font-variation-settings: 'wght' 500;
 }
 @media (max-width: 600px) {
     .header {
