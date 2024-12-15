@@ -51,8 +51,8 @@ strong{
     background-size: contain;
     background-repeat: no-repeat;
 }
-.buttons #twitter{
-    background-image: url(twitter.webp);
+.buttons #bluesky{
+    background-image: url(bluesky.webp);
 }
 .buttons #discord{
     background-image: url(discord.webp);
